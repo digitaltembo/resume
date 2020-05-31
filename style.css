@@ -1,0 +1,120 @@
+:root {
+    --bg-color: #FAFAFA;
+    --text: #555;
+    --font: Times, serif;
+    --link: #07A;
+    --link-visited: #941352;
+    --header-color: #16A085;
+    --bold-color: #C0392B;
+    --name-color: #6761A8;
+    --headshot-radius: 100px;
+}
+
+.professional {
+    --bg-color: #FFF;
+    --text: #373737;
+    --font: Arial, sans-serif;
+    --link: #00007F;
+    --link-visited: #954f72;
+    --header-color: #2F5496;
+    --bold-color: #000;
+    --name-color: #000;
+    --headshot-radius: 0;
+}
+
+.dark-mode {
+    --bg-color: #272822;
+    --text: #fcfcfa;
+    --font: Arial, sans-serif;
+    --link: #66d8ef;
+    --link-visited: #ac80ff;
+    --header-color: #E6DB74; 
+    --bold-color: #ef2e72;
+    --name-color: #ac80ff;
+    --headshot-radius: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+#resume {
+    max-width: 800px;
+    font-family: var(--font);
+    color: var(--text);
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+.name {
+    color: var(--name-color);
+}
+
+h1 {
+    /*font-size: 1.2em;*/
+}
+h2 {
+    color: var(--header-color);
+    /*text-transform: uppercase;*/
+    /*font-size: 1.1em;*/
+}
+
+a, a:active {
+    color: var(--link);
+}
+a:visited {
+    color: var(--link-visited);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.headshot {
+    border-radius: var(--headshot-radius);
+    max-width: 200px;
+    max-height: 200px;
+    margin: 20px;
+    border: 3px solid var(--text);
+}
+
+.meta {
+    flex: 1 1 200px;
+}
+.meta .title {
+    color: var(--header-color);
+}
+.meta .blurb {
+    text-align: left;
+}
+
+.sortedTags {
+    line-height: 28px;
+}
+.tagButton {
+    padding: 0 3px;
+    border-radius: 3px;
+    border: 2px solid var(--text);
+    margin: 2px;
+    cursor: pointer;
+}
+.tagButton:hover {
+    background: var(--link);
+    color: var(--bg-color);
+    border-color: var(--link);
+}
+.tagButton.selected {
+    background: var(--link-visited);
+    border-color: var(--link-visited);
+    color: var(--bg-color);
+}
+.jobHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobHeader, .personalProject {
+    font-weight: bold;
+
+    color: var(--bold-color);
+}

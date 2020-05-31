@@ -1,0 +1,77 @@
+<html>
+<head>
+  <title>Resume of Nolan Hawkins</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.14.0/js-yaml.min.js"></script>
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+  <button type="button" id="dark-mode">Dark Mode</button>
+  <button type="button" id="professional">Professional</button>
+  <button type="button" id="casual">Casual</button>
+  <div id="resume">
+    <header class="header">
+      <img src="headshot.jpg" class="headshot" alt="This is me!">
+      <div class="meta">
+        <h1 class="name"></h1>
+        <div>
+          <span class="location"></span> <!-- | <span class="phone"></span> -->
+        </div>
+        <div>
+          <span class="linkedIn"></span> | <!-- <span class="email"></span> | --> <span class="gitHub"></span>
+        </div>
+        <br/>
+        <div class="blurb desc"></div>
+        <hr/>
+      </div>
+    </header>
+    <nav class="sortedTags">
+      <span class="tagButton"></span>
+    </nav>
+
+    <h2 class="heading">Experience</h2>
+
+    <div class="companies">
+      <div class="jobHeader">
+        <div class="jobTitle">
+          <span class="company"></span> &mdash; <span class="title"></span>
+        </div>
+        <div class="time"></div>
+      </div>
+      <div class="desc"></div>
+      <ul class="projects">
+        <li class="desc"></li>
+      </ul>
+    </div>
+
+    <h2 class="heading">Education</h2>
+
+    <div class="educations">
+      <div>
+        <span class="education"></span>, <span class="location"></span>
+      </div>
+      <ul>
+        <li>
+          Majors in <span class="majors"></span>, 
+          Minor in <span class="minors"></span>
+        </li>
+        <li>
+          <span class="accolades"></span>, <span class="gPA"></span> GPA
+        </li>
+      </ul>
+    </div>
+
+    <h2 class="heading">Projects</h2>
+
+    <ul class="personalProjects">
+      <li>
+        <span class="personalProject"></span>: <span class="desc"></span>
+      </li>
+    </ul>
+  </div>
+
+  <script src="resume.js"></script>
+</body>
+</html>
+
+

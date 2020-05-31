@@ -1,0 +1,209 @@
+---
+- Meta:
+    Name: Nolan Hawkins
+    Location: Cambridge, MA, 02139
+    Phone: XXX.XXX.XXXX
+    LinkedIn: linkedin.com/in/nolan-hawkins
+    Email: XXXXXX
+    GitHub: github.com/digitaltembo
+    Title: Software Engineer 
+    Descs: 
+      - |
+        Hi! I am Nolan, and I am an intelligent, driven, and inquisitive programmer with experience 
+        in a variety of different web and desktop technologies, and a passion and interest in 
+        learning more. Here are some of the things I've worked on:
+      - |
+        Independent and dynamic professional with experience working on full stack, from dev-ops to 
+        front end, for large- and small-scale systems and delivering solutions to both businesses 
+        and customers. Proven success proactively uncovering issues and establishing actionable 
+        steps for improvements. Track record of picking up new skills and adapting to new 
+        environments with 
+        proficiency.
+
+# Tripadvisor
+- Company: Tripadvisor, Inc
+  Alias: Tripadvisor
+  Title: Software Engineer
+  Time: 2019-2020
+  Tags: [Java, Kotlin, Microservices, ReactJS, Hadoop, Back-end, Front-end, JS]
+  Descs:
+    - |
+      Implemented user-facing features on major webpages serving millions of views. Worked with Java 
+      and Kotlin microservice architecture to efficiently launch new products. 
+- Company Project: Tripadvisor
+  Tags: [Hadoop, Java, HQL, SQL, PySpark, Python, Designed, Back-end,  Data Analysis and Visualization]
+  Descs:
+    - |
+      Designed and implemented Hadoop/PySpark data pipelines and metrics for analyzing geographic 
+      information of hotels, restaurants, attractions, and neighborhoods worldwide
+    - Tags: [Java, Jenkins]
+      Text: |
+        Generalized Java Jenkins job that generated walkability data for hotels to apply to 
+        vacation rental and neighborhoods, and to generate additional information
+      Importance: 40
+- Company Project: Tripadvisor
+  Tags: [Front-end, Data Analysis and Visualization]
+  Importance: 25
+  Descs:
+    - |
+      Implemented explorable map prototypes for displaying and iterating on a variety of location 
+      metrics
+- Company Project: Tripadvisor
+  Tags: [Perl, Generation, Back-end, SQL]
+  Descs: 
+    - Modified legacy Perl library to generate descriptive texts for neighborhoods
+- Company Project: Tripadvisor
+  Tags: [ReactJS, Front-end, JS]
+  Descs:
+    - Implemented new filters for users viewing hotel lists, driving revenue growth
+- Company Project: Tripadvisor
+  Tags: [ReactJS, Front-end, JS]
+  Descs:
+    - Conceived of and implemented the idea of adding a transit layer to Tripadvisor hotel maps
+
+# Paytronix!
+- Company: Paytronix Systems, Inc.
+  Alias: Paytronix
+  Title: Software Engineer
+  Time: 2017-2019
+  Tags: [Scala, Scala/Lift, Java, JSP, T-SQL]
+  Descs: 
+    - |
+      Built various projects related to maintenance and growth of a large restaurant marketing 
+      website, from front end to dev-ops, both independently and in large groups
+- Company Project: Paytronix
+  Tags: [Java, Parallel, Back-end, SQL, T-SQL]
+  Descs: 
+    - |
+      Improved batched email sending by adding ability to pause the highly parallel Java process, 
+      significantly easing deployment process and crisis management
+- Company Project: Paytronix
+  Tags: [Front-end, Scala/Lift, Scala, JS]
+  Descs:
+    - Improved customer-segmentation GUI with cleaner front end UX and back end code architecture
+- Company Project: Paytronix
+  Tags: [Front-end, ReactJS, JS]
+  Importance: 25
+  Descs:
+    - Worked on new marketing campaign tool in React
+- Company Project: Paytronix
+  Tags: [Scala, Microservices, Architecture, SQL, T-SQL, Back-end]
+  Descs:
+    - |
+      Programmed and helped design a Scala service for handling coupons, requiring changes to core 
+      payment processing flows, but adding an entirely new revenue source
+- Company Project: Paytronix
+  Tags: [Security, Back-end, Scala, SAML]
+  Importance: 25
+  Descs:
+    - Engineered SSO with multiple external services
+    - Engineered Secure Sign On with multiple external services
+    - Tags: [SAML]
+      Text: Created SAML integration with Salesforce
+      Importance: 40
+- Company Project: Paytronix
+  Tags: [Python, Dev-ops]
+  Descs:
+    - Created extensive Python package providing tooling around development and test deployments
+- Company Project: Paytronix
+  Tags: [Mentoring]
+  Importance: 25
+  Descs:
+    - |
+      Worked with intern throughout the summer, helping them setup & bug shoot & generally grow as a 
+      developer. Worked well enough that they came back full time!
+- Company Project: Paytronix
+  Tags: [Hadoop, YARN, PySpark]
+  Importance: 25
+  Descs:
+    - |
+      Added features to Hadoop ETLs living in AWS to facilitate data-science team workflow
+
+# Tufts!
+
+- Company: Tufts University, Computer Sciences
+  Alias: TA 
+  Title: Teaching Assistant
+  Time: 2015-2016
+  Tags: [Mentoring]
+- Tag: Mentoring
+  Aliases: [Teaching, Tutoring]
+- Company Project: TA 
+  Tags: [Dynamic Programming, Memoization, Algorithms, Mentoring]
+  Descs: 
+    - |
+      Graded, explained and worked through problems in various subjects related to algorithms, such 
+      as dynamic programming, memoization, and recurrence relations in _Introduction to Algorithms_ 
+      course
+- Company Project: TA
+  Tags: [C, Low-Level, Machine Language, Assembly, Mentoring]
+  Descs: 
+    - |
+      Helped pair-programming students to resolve tricky bugs in C programs and to understand 
+      low-level computer functioning in _Machine Language and Assembly Programming_
+- Company: Journal of Medical Insight
+  Alias: JoMI
+  Title: Software Engineer 
+  Time: 2015 
+  Tags: [PHP, Python, Django, WordPress]
+  Descs:
+    - |
+      Lead a small team of interns in a project to port product website from Wordpress to Django
+- Company Project: JoMI
+  Tags: [WordPress, SQL, MySQL, PostgreSQL]
+  Descs: 
+    - Dealt with WordPress PHP bug fixes and worked with MySQL and PostgreSQL
+- Education: Tufts University
+  Location: Medford, MA 
+  Degree: BS
+  Majors:
+    - Computer Science 
+    - Mathematics 
+  Minors:
+    - Physics 
+  GPA: 3.67 
+  Accolades: Magna Cum Laude 
+
+- Personal Project: Ghost Jukebox 
+  Tags: [Nginx, Raspberry Pi, Flask, Python, sqlite]
+  Descs:
+    - |
+      Raspberry Pi webapp to manage music selections with a QR reader written in Python Flask with 
+      clean HTML interface
+
+- Personal Project: Surface Evolver 
+  Tags: [C++, CUDA, Windows Studio]
+  Descs: 
+    - |
+      School project to compare GPU and CPU performance for work in Computational Physics, 
+      specifically examining evolution of a manifold given surface and internal pressures.
+
+- Personal Project: Kismet
+  Tags: [Flask, ReactJS, sqlite, Nginx, Gunicorn, letsencrypt, API, Raspberry Pi]
+  Src: https://github.com/digitaltembo/kismet
+  Descs:
+    - |
+      Webapp written in Flask and ReactJS to keep track of ping pong games and chart relative 
+      skills, served from my Raspberry Pi with letsencrypt + Nginx + Gunicorn
+
+- Personal Project: Crime and Dining
+  Tags: [C++, Mapping, HTML, JS, Data Analysis and Visualization]
+  Src: https://github.com/digitaltembo/Crime-And-Dining
+  Importance: 20
+  Descs:
+    - |
+      With C++ data analysis and vanilla JS data visualization using Google Maps, I displayed
+      a correlation between crime and dining establishments in Boston.
+    - |
+      * Using data from the city of Boston, I analyzed the correlation between crime and dining 
+        establishments to calculate a heuristic for how "dangerous" a restaurant is, based on its 
+        vicinity to cries and when they happened and what they involved.
+      * I used C++ to analyze the data sets, loaded my analysis into Google Fusion Tables, and 
+        visualized it using the Google Maps API.
+
+
+
+
+
+
+
