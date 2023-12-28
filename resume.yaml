@@ -1,17 +1,13 @@
 ---
 - Meta:
     Name: Nolan Hawkins
-    Location: Cambridge, MA, 02139
+    Location: Waltham, MA
     Phone: XXX.XXX.XXXX
     LinkedIn: linkedin.com/in/nolan-hawkins
     Email: XXXXXX
     GitHub: github.com/digitaltembo
-    Title: Software Engineer 
-    Descs: 
-      - |
-        Hi! I am Nolan, and I am an intelligent, driven, and inquisitive programmer with experience 
-        in a variety of different web and desktop technologies, and a passion and interest in 
-        learning more. Here are some of the things I've worked on:
+    Title: Software Engineer
+    Descs:
       - |
         Independent and dynamic professional with experience working on full stack, from dev-ops to 
         front end, for large- and small-scale systems and delivering solutions to both businesses 
@@ -19,7 +15,53 @@
         steps for improvements. Track record of picking up new skills and adapting to new 
         environments with 
         proficiency.
-
+- Company: Boston Dynamics
+  Alias: BD
+  Title: Staff Software Engineer
+  Time: 2020-Present
+  Tags:
+    [
+      Robotics,
+      TypeScript,
+      C++,
+      Python,
+      Back-end,
+      Front-end,
+      ReactJs,
+      Kotlin,
+      gRPC,
+      Architecture,
+    ]
+  Descs:
+    - |
+      Primary UI and full-stack developer on Stretch robot. Designed, developed and maintained services
+      and UIs for robotic control and information retrieval
+- Company Project: BD
+  Tags: [TypeScript, Express, ReactJs, gRPC, sqlite]
+  Descs:
+    - |
+      TypeScript ExpressJS web server running on robot with type-safe REST and WebSocket API tooling and
+      React frontend for access to underlying services.
+    - |
+      TypeScript web server with React frontend for access to underlying services
+- Company Project: BD
+  Tags: [Android, Kotlin, mDNS]
+  Descs:
+    - |
+      Designed and implemented Android app written in Kotlin wrapping React webapp with mDNS-based robot
+      discovery and TLS/SSL certificate validation
+- Company Project: BD
+  Tags: [C++, UDP, Firmware]
+  Descs:
+    - |
+      Designed novel UDP network protocol for communication between robot and proprietary gamepad. Implemented 
+      C++ server that allows for gamepad control and UI display
+- Company Project: BD
+  Tags: [C++, Python, gRPC, Architecture]
+  Descs:
+    - |
+      Designed, implemented, and worked on various C++ and Python gRPC services providing facets of information
+      retrieval and robot control functionality.
 # Tripadvisor
 - Company: Tripadvisor, Inc
   Alias: Tripadvisor
@@ -29,9 +71,20 @@
   Descs:
     - |
       Implemented user-facing features on major webpages serving millions of views. Worked with Java 
-      and Kotlin microservice architecture to efficiently launch new products. 
+      and Kotlin microservice architecture to efficiently launch new products.
 - Company Project: Tripadvisor
-  Tags: [Hadoop, Java, HQL, SQL, PySpark, Python, Designed, Back-end,  Data Analysis and Visualization]
+  Tags:
+    [
+      Hadoop,
+      Java,
+      HQL,
+      SQL,
+      PySpark,
+      Python,
+      Designed,
+      Back-end,
+      Data Analysis and Visualization,
+    ]
   Descs:
     - |
       Designed and implemented Hadoop/PySpark data pipelines and metrics for analyzing geographic 
@@ -50,7 +103,7 @@
       metrics
 - Company Project: Tripadvisor
   Tags: [Perl, Generation, Back-end, SQL]
-  Descs: 
+  Descs:
     - Modified legacy Perl library to generate descriptive texts for neighborhoods
 - Company Project: Tripadvisor
   Tags: [ReactJS, Front-end, JS]
@@ -67,13 +120,13 @@
   Title: Software Engineer
   Time: 2017-2019
   Tags: [Scala, Scala/Lift, Java, JSP, T-SQL]
-  Descs: 
+  Descs:
     - |
       Built various projects related to maintenance and growth of a large restaurant marketing 
       website, from front end to dev-ops, both independently and in large groups
 - Company Project: Paytronix
   Tags: [Java, Parallel, Back-end, SQL, T-SQL]
-  Descs: 
+  Descs:
     - |
       Improved batched email sending by adding ability to pause the highly parallel Java process, 
       significantly easing deployment process and crisis management
@@ -101,6 +154,9 @@
     - Tags: [SAML]
       Text: Created SAML integration with Salesforce
       Importance: 40
+    - Tags: [Looker]
+      Text: Integrated user experience, SSO with Looker
+      Importance: 40
 - Company Project: Paytronix
   Tags: [Python, Dev-ops]
   Descs:
@@ -122,88 +178,76 @@
 # Tufts!
 
 - Company: Tufts University, Computer Sciences
-  Alias: TA 
+  Alias: TA
   Title: Teaching Assistant
   Time: 2015-2016
   Tags: [Mentoring]
 - Tag: Mentoring
   Aliases: [Teaching, Tutoring]
-- Company Project: TA 
+- Company Project: TA
   Tags: [Dynamic Programming, Memoization, Algorithms, Mentoring]
-  Descs: 
+  Descs:
     - |
       Graded, explained and worked through problems in various subjects related to algorithms, such 
       as dynamic programming, memoization, and recurrence relations in _Introduction to Algorithms_ 
       course
 - Company Project: TA
   Tags: [C, Low-Level, Machine Language, Assembly, Mentoring]
-  Descs: 
+  Descs:
     - |
       Helped pair-programming students to resolve tricky bugs in C programs and to understand 
       low-level computer functioning in _Machine Language and Assembly Programming_
 - Company: Journal of Medical Insight
   Alias: JoMI
-  Title: Software Engineer 
-  Time: 2015 
+  Title: Software Engineer
+  Time: 2015
   Tags: [PHP, Python, Django, WordPress]
   Descs:
     - |
       Lead a small team of interns in a project to port product website from Wordpress to Django
 - Company Project: JoMI
   Tags: [WordPress, SQL, MySQL, PostgreSQL]
-  Descs: 
+  Descs:
     - Dealt with WordPress PHP bug fixes and worked with MySQL and PostgreSQL
 - Education: Tufts University
-  Location: Medford, MA 
+  Location: Medford, MA
   Degree: BS
   Majors:
-    - Computer Science 
-    - Mathematics 
+    - Computer Science
+    - Mathematics
   Minors:
-    - Physics 
-  GPA: 3.67 
-  Accolades: Magna Cum Laude 
+    - Physics
+  GPA: 3.67
+  Accolades: Magna Cum Laude
 
-- Personal Project: Ghost Jukebox 
+- Personal Project: Doxastic
+  Tags: [ReactJS, TypeScript, Documentation]
+  Src: https://github.com/digitaltembo/doxastic
+  Descs:
+    - |
+      ReactJS component documentation system that aims to ease component implementation and iteration,
+      taking you from install to fully customizable, interactive, and self-documenting component
+      library/playground in a few easy steps.
+
+- Personal Project: Ghost Jukebox
   Tags: [Nginx, Raspberry Pi, Flask, Python, sqlite]
   Descs:
     - |
       Raspberry Pi webapp to manage music selections with a QR reader written in Python Flask with 
       clean HTML interface
 
-- Personal Project: Surface Evolver 
+- Personal Project: Surface Evolver
   Tags: [C++, CUDA, Windows Studio]
-  Descs: 
+  Descs:
     - |
       School project to compare GPU and CPU performance for work in Computational Physics, 
       specifically examining evolution of a manifold given surface and internal pressures.
 
 - Personal Project: Kismet
-  Tags: [Flask, ReactJS, sqlite, Nginx, Gunicorn, letsencrypt, API, Raspberry Pi]
+  Tags:
+    [Flask, ReactJS, sqlite, Nginx, Gunicorn, letsencrypt, API, Raspberry Pi]
   Src: https://github.com/digitaltembo/kismet
   Descs:
     - |
       Webapp written in Flask and ReactJS to keep track of ping pong games and chart relative 
       skills, served from my Raspberry Pi with letsencrypt + Nginx + Gunicorn
-
-- Personal Project: Crime and Dining
-  Tags: [C++, Mapping, HTML, JS, Data Analysis and Visualization]
-  Src: https://github.com/digitaltembo/Crime-And-Dining
-  Importance: 20
-  Descs:
-    - |
-      With C++ data analysis and vanilla JS data visualization using Google Maps, I displayed
-      a correlation between crime and dining establishments in Boston.
-    - |
-      * Using data from the city of Boston, I analyzed the correlation between crime and dining 
-        establishments to calculate a heuristic for how "dangerous" a restaurant is, based on its 
-        vicinity to cries and when they happened and what they involved.
-      * I used C++ to analyze the data sets, loaded my analysis into Google Fusion Tables, and 
-        visualized it using the Google Maps API.
-
-
-
-
-
-
-
