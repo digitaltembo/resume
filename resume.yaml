@@ -1,4 +1,5 @@
 ---
+# Defines a {YamlResume} object as defined in resume.js
 - Meta:
     Name: Nolan Hawkins
     Location: Waltham, MA
@@ -37,7 +38,7 @@
       Primary UI and full-stack developer on Stretch robot. Designed, developed and maintained services
       and UIs for robotic control and information retrieval
 - Company Project: BD
-  Tags: [TypeScript, Express, ReactJs, gRPC, sqlite]
+  Tags: [TypeScript, Express, ReactJs, sqlite]
   Descs:
     - |
       TypeScript ExpressJS web server running on robot with type-safe REST and WebSocket API tooling and
@@ -230,6 +231,7 @@
       library/playground in a few easy steps.
 
 - Personal Project: Ghost Jukebox
+  Src: https://github.com/digitaltembo/ghost-jukebox
   Tags: [Nginx, Raspberry Pi, Flask, Python, sqlite]
   Descs:
     - |
@@ -237,6 +239,7 @@
       clean HTML interface
 
 - Personal Project: Surface Evolver
+  Src: https://github.com/digitaltembo/GPUSurfaceEvolver
   Tags: [C++, CUDA, Windows Studio]
   Descs:
     - |
