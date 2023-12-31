@@ -1,5 +1,6 @@
 ---
-# Defines a {YamlResume} object as defined in resume.js
+# Defines an arrray of {YamlResumeItem} objects as defined in resume.js
+# - also I capitalized all the field names, for reasons I do not recall
 - Meta:
     Name: Nolan Hawkins
     Location: Waltham, MA
